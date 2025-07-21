@@ -1,0 +1,24 @@
+@{
+    Layout = "_Layout";
+}
+
+<header>
+    <nav>
+        <a asp-controller="Club" asp-action="List">Clubs</a> |
+        <a asp-controller="Class" asp-action="List">Classes</a> |
+        <a asp-controller="Membership" asp-action="List">Membership</a> |
+        <a asp-controller="PrivateClass" asp-action="List">Private Training</a> |
+        <a asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a>
+    </nav>
+    <hr />
+</header>
+
+@RenderBody()
+
+<footer>
+    <hr />
+    <a asp-action="Contact">Contact us</a> |
+    <a asp-action="Privacy">Privacy Policy</a> |
+    <a asp-action="Terms">Terms & Conditions</a> |
+    <a asp-action="CookiePolicy">Cookie Policies</a>
+</footer>
