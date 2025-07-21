@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Equinox")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10e35979db0804574bb065f64c83e05161b9d507")]
 [assembly: System.Reflection.AssemblyProductAttribute("Equinox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Equinox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
